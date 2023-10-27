@@ -15,3 +15,132 @@ nav {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.features h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.features ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+.benefits h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.benefits ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+}
+
+.call-to-action h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.call-to-action a {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .about h2 {
+    font-size: 24px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .features h2 {
+    font-size: 24px;
+  }
+
+  .features ul {
+    font-size: 14px;
+  }
+
+  .benefits h2 {
+    font-size: 24px;
+  }
+
+  .benefits ul {
+    font-size: 14px;
+  }
+
+  .call-to-action h2 {
+    font-size: 24px;
+  }
+}
