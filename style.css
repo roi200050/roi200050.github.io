@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  direction: rtl;
 }
 
 header {
@@ -21,44 +22,46 @@ a {
   text-decoration: none;
 }
 
-.hero {
-  background-image: url(/assets/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-}
-
 .container {
   width: 800px;
   margin: 0 auto;
 }
 
+.about {
+  margin-top: 40px;
+}
+
 .hero h2 {
   font-size: 50px;
   font-weight: bold;
+  text-align: right;
   margin-top: 0;
 }
 
 .hero p {
   font-size: 20px;
   margin-top: 20px;
+  text-align: right;
 }
 
 .about h2 {
   font-size: 30px;
   font-weight: bold;
+  text-align: right;
   margin-top: 0;
 }
 
 .about p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: right;
   margin-top: 20px;
 }
 
 .features h2 {
   font-size: 30px;
   font-weight: bold;
+  text-align: right;
   margin-top: 0;
 }
 
@@ -66,15 +69,18 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 .features li {
   margin-bottom: 10px;
+  text-align: right;
 }
 
 .benefits h2 {
   font-size: 30px;
   font-weight: bold;
+  text-align: right;
   margin-top: 0;
 }
 
@@ -82,15 +88,18 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 .benefits li {
   margin-bottom: 10px;
+  text-align: right;
 }
 
 .call-to-action h2 {
   font-size: 30px;
   font-weight: bold;
+  text-align: right;
   margin-top: 0;
 }
 
@@ -100,6 +109,35 @@ a {
   padding: 20px;
   border-radius: 5px;
   text-decoration: none;
+  text-align: right;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.video iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.video:hover::after {
+  opacity: 1;
+}
+
+.features {
+  margin-top: 60px;
+}
+
+.benefits {
+  margin-top: 60px;
+}
+
+.call-to-action {
+  margin-top: 60px;
 }
 
 footer {
@@ -112,35 +150,24 @@ footer {
     width: 100%;
   }
 
-  .hero {
-    height: 400px;
+  .video {
+    width: 100%;
+    height: 225px;
   }
 
-  .about h2 {
-    font-size: 24px;
+  .video iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .features {
+    margin-top: 20px;
   }
 
-  .about p {
-    font-size: 16px;
+  .benefits {
+    margin-top: 20px;
   }
 
-  .features h2 {
-    font-size: 24px;
-  }
-
-  .features ul {
-    font-size: 14px;
-  }
-
-  .benefits h2 {
-    font-size: 24px;
-  }
-
-  .benefits ul {
-    font-size: 14px;
-  }
-
-  .call-to-action h2 {
-    font-size: 24px;
+  .call-to-action {
+    margin-top: 20px;
   }
 }
