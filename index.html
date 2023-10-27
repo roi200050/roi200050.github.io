@@ -1,109 +1,106 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Afik Buskila Food Photography Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Afik Buskila Food Photography Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#photos">Photos</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <div class="container">
-          <div class="column">
-            <h2>About Me</h2>
-            <p>I'm Afik Buskila, a food photographer based in Israel. <br>My passion for food photography began when I was working as a cook, and I realized that I wanted to capture the beauty of food in a different way. <br>Since then, I've worked with a variety of clients to create stunning images that showcase their dishes in the best possible light.</p>
-          </div>
-          <div class="column">
-            <img class="profile" src="profile.jpg" alt="Afik Buskila">
-          </div>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnyTrainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AnyTrainer</h1>
+    <nav>
+      <a href="#">פרופיל</a>
+      <a href="#">הודעות</a>
+      <a href="#">פגישות</a>
+      <a href="#">ארוחות</a>
+      <a href="#">הגדרות</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <h2>פרופיל</h2>
+      <div class="user-info">
+        <img src="user.png" alt="תמונה של המשתמש">
+        <div>
+          <h3>שם המשתמש</h3>
+          <p>פרמטרים גופניים</p>
         </div>
-      </section>      
-      <section id="photos">
-        <h2>My Photos</h2>
-        <div class="photo-grid">
-          <div class="photo">
-            <img src="image00001.jpeg">
+      </div>
+    </section>
+    <section class="messages">
+      <h2>הודעות</h2>
+      <ul>
+        <li>
+          <div class="message">
+            <h3>כותרת ההודעה</h3>
+            <p>תוכן ההודעה</p>
           </div>
-          <div class="photo">
-            <img src="image00002.jpeg">
+          <div class="reply">
+            <h3>כותרת התגובה</h3>
+            <p>תוכן התגובה</p>
           </div>
-          <div class="photo">
-            <img src="image00003.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00004.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00005.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00006.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00007.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00008.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00009.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00010.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00011.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00012.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00013.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00014.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00015.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00016.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00017.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00018.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00019.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00020.jpeg">
-          </div>
-          <div class="photo">
-            <img src="image00021.jpeg">
-          </div>
-        </div>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you're interested in working together or just want to say hello, you can reach me at <a href="mailto:itzafik@gmail.com">itzafik@gmail.com</a> or by phone at <a href="tel:+9726417001">+9726417001</a>. Feel free to contact me if you have any questions or would like to discuss a project!</p>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Afik Buskila. All rights reserved.</p>
-    </footer>
-  </body>
+        </li>
+      </ul>
+      <form action="#">
+        <input type="text" placeholder="הזן הודעה">
+        <input type="submit" value="שלח">
+      </form>
+    </section>
+    <section class="appointments">
+      <h2>פגישות</h2>
+      <ul>
+        <li>
+          <h3>כותרת הפגישה</h3>
+          <p>תאריך וזמן הפגישה</p>
+        </li>
+      </ul>
+      <a href="#">תזמן פגישה חדשה</a>
+    </section>
+    <section class="meals">
+      <h2>ארוחות</h2>
+      <form action="#">
+        <input type="date" placeholder="תאריך ארוחה">
+        <input type="text" placeholder="תיאור הארוחה">
+        <input type="submit" value="שמור">
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>תאריך</th>
+            <th>ארוחה</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023-07-20</td>
+            <td>סלט טונה</td>
+          </tr>
+          <tr>
+            <td>2023-07-21</td>
+            <td>פסטה עם רוטב עגבניות</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="settings">
+      <h2>הגדרות</h2>
+      <ul>
+        <li>
+          <a href="#">אודות AnyTrainer</a>
+        </li>
+        <li>
+          <a href="#">התנתק</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023 AnyTrainer</p>
+  </footer>
+
+</body>
 </html>
